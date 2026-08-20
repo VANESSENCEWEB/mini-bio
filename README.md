@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Mini Bio · Vanessa Lima
 
-## Getting Started
+Mini bio pessoal desenvolvido com **React** e **Next.js**.
 
-First, run the development server:
+🔗 **Acesse o site:** [mini-bio-gamma.vercel.app](https://mini-bio-gamma.vercel.app)
+
+---
+
+## 📖 Sobre o projeto
+
+Projeto para praticar o que está sendo desenvolvido na disciplina de programação frontend - Sistemas para Internet - Unicap (2026.2)
+
+A estrutura é baseada em **componentes reutilizáveis**, seguindo o modelo de organização do Next.js com App Router.
+
+---
+
+## 🛠️ Tecnologias
+
+- **React** — biblioteca para construção da interface
+- **Next.js** — framework React (App Router)
+- **JavaScript** — lógica e interatividade
+- **CSS** — estilização e layout responsivo
+- **Vercel** — hospedagem e deploy contínuo
+
+---
+
+## 🚀 Como rodar localmente
+
+Clone o repositório e instale as dependências:
 
 ```bash
+git clone https://github.com/VANESSENCEWEB/mini-bio.git
+cd mini-bio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Estrutura
 
-## Learn More
+```
+mini-bio/
+├── app/
+│   ├── components/     # Componentes reutilizáveis
+│   ├── page.js         # Página principal
+│   ├── layout.js       # Layout base
+│   └── globals.css     # Estilos globais
+└── public/             # Imagens e arquivos estáticos
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Próximos passos
+- [ ] Criar um portfólio completo, profissional e responsivo:
+...
+- [ ] Adicionar seção de projetos
+- [ ] Incluir foto e hero personalizado
+- [ ] Melhorar responsividade mobile
+- [ ] Adicionar animações e microinterações
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
